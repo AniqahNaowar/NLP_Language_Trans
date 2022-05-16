@@ -1,0 +1,24 @@
+<html>
+
+   <head>
+      <title>Sentence Translation</title>
+    </head>
+<body>
+   <h1>Enter A sentence</h1>
+   <form method = "post" action="/data">
+        <input type="text" name="word" placeholder="Type a sentence" required="required">
+        
+        <button>Submit</button>
+    </form>
+
+    <h1>Meaning of the sentence</h1> 
+             {{data}}
+    </body> 
+
+    <style>
+      body{
+          background-color: rgb(49, 7, 107);
+          color: white;
+      }
+  </style>
+</html>
